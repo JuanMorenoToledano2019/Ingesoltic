@@ -1,0 +1,207 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+section{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+}
+
+#sectionindex{
+	background-image: url("../img/index.jpg");
+}
+
+#sectionquienessomos{
+	background-image: url("../img/quienessomos.jpg");
+	background-size: 100%;
+	padding-right: 300px;
+}
+
+#sectionnosotros{
+	background-image: url("../img/nosotros.jpg");
+	background-attachment: scroll;
+	background-size: 100%;
+	padding-right: 200px;
+}
+
+#sectionmarcas{
+	height: 250px;
+}
+
+#sectionequipamiento{
+	height: 250px;
+}
+
+#sectioncontacto{
+	background-image: url("../img/contacto.jpg");
+	background-attachment: scroll;
+	background-size: 100%;	
+}
+
+#sectionservicios{
+	background-image: url("../img/servicio.jpg");
+	background-attachment: scroll;
+	background-size: 100%;
+	
+}
+
+#sectiondiseñoaplicacion{
+	background-image: url("../img/diseñoaplicacion.jpg");
+	background-attachment: scroll;
+	background-size: 100%;
+}
+
+#sectionconsultoria{
+	background-image: url("../img/consultoria.jpg");
+	background-attachment: scroll;
+	background-size: 100%;
+	padding-right: 700px;
+}
+
+#sectiondesarrollo{
+	background-image: url("../img/desarrollo.jpg");
+	background-attachment: scroll;
+	background-size: 100%;
+	padding-right: 700px;
+}
+
+
+h1{
+	color:darkblue;
+	font-family: arial;
+	font-weight: bold;
+	padding: 20px 800px 20px 280px;
+}
+
+h2{
+	color:darkblue;
+	background-color:lightgray;
+	font-family: arial;
+	font-weight:normal;
+	padding: 10px 280px;	
+}
+
+h3{
+	color:darkblue;
+	background-color: lightblue;
+	font-family: arial;
+	font-weight:normal;
+	padding: 10px 280px;
+}
+
+h4{
+	position: absoute;
+	top: 20px;
+	color:darkblue;
+	font-family: arial;
+	font-weight:normal;
+	padding: 10px 80px 10px 280px;	
+}
+
+#h4float{
+	float: left;
+}
+
+h5{
+	position: absoute;
+	top: 20px;
+	color:darkblue;
+	font-family: arial;
+	font-weight:normal;
+	padding: 10px 280px;
+	float: left;
+}
+
+#marcas{
+	padding-left: 675px;
+	padding-top: 50px;
+	width: 200px;
+}
+
+#equipamiento{
+	padding-left: 675px;
+	padding-top: 50px;
+	width: 200px;
+}
+
+#boton{
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+    font-family: arial;
+	font-size: 20px;
+	margin-left: 480px;
+}
+
+#logotemas{
+	width: 40px;
+}
+
+#imginstalacionesderecha{
+	position: relative;
+	left: 600px;
+	width: 300px;
+}
+
+header{
+	margin: auto;
+	width: 1000px;
+	height: 65px;
+	font-family:arial;
+}
+
+.logo1{
+	padding: 0px;
+	margin: 0px;
+	height: 58px;
+	float: left;
+}
+
+ul{
+	list-style: none;
+}
+
+.menu li a{
+	background-color:white;
+	color:darkblue;
+	text-decoration: none;
+	padding: 20px 30px;
+	display: block;
+}
+
+.menu li a:hover{
+	background-color: lightblue;
+	color:darkblue;
+}
+.menu > li{
+	float:left;
+}
+.menu li ul{
+	display: none;
+	position:absolute;
+	min-width: 140px;
+}
+.menu li:hover > ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right: -140px;
+	top: 0px;
+}
+
+footer{
+	font-family: arial;
+	font-size: small;
+	padding-top: 10px;
+	text-align: center;
+}
+

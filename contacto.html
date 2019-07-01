@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<script src="JS/main.js"></script>
+    </head>
+    <body>
+	<header>
+	<a href="index.html"><img class="logo1" src="img/logo_ingesoltic.png"/></a>
+		<ul class="menu">
+			<li><a href="quienessomos.html">Quienes Somos</a>
+			<ul>
+				<li><a href="quienessomos.html">La empresa</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+			</ul>
+			</li>
+			<li><a href="instalaciones.html">Instalaciones</a></li>
+			<li><a href="servicios.html">Servicios</a>
+			<ul>
+				<li><a href="diseñoaplicacion.html">Diseño de aplicaciones</a></li>
+				<li><a href="desarrolloproyecto.html">Desarrollo de proyectos</a></li>
+				<li><a href="consultoria.html">Consultoría</a></li>
+			</ul>
+			</li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="contacto.html">Contacto</a>
+			<ul>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="dondeestamos.html">Donde estamos</a></li>
+			</ul>
+			</li>
+		</ul>
+	</header>
+	<h2><img id="logotemas" src="img/contacto.png" />Contacto</h2>
+	<h3>¿Quieres contactar con nosotros?</h3>
+	<section id="sectioncontacto">
+	<h4>Rellena este formulario: </h4>
+	
+	<br>
+		<h5><form name="formulario" method="post" action="mailto:raul.rodriguez@universidadeuropea.es" onSubmit="return ValidaCampos(this)">
+			
+			<input type="text" name="nombre" size="20" placeholder="Nombre">
+			<br>
+			<br>
+			<input type="text" name="email" size="40" placeholder="Email">
+			<br>
+			<br>
+			<input type="text" name="telefono" placeholder="Teléfono">
+			<br>
+			<br>
+			Elija asunto:<br>
+			<br>
+			<input type="checkbox" name="consultoria">Consultoría
+			<input type="checkbox" name="desarrolloproyecto">Desarrollo de Proyectos
+			<input type="checkbox" name="realizacionpedidos">Realización de Pedidos
+			<input type="checkbox" name="otros">Otros
+			<br>
+			<br>
+			<textarea placeholder="Escribir aquí el mensaje de texto..." name="texto" 
+			cols="50" rows="10"></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Enviar email">
+			<input type="reset" value="Borrar">
+		</form></h5></section>
+	<footer>
+	Ingesoltic &copy; 2019
+	</footer>
+    </body>
+</html>
